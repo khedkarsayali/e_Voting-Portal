@@ -1,0 +1,199 @@
+*{
+    margin:0;
+    padding:0;
+  }
+  
+  
+  
+  .admin_home{
+    background-color: aliceblue;
+    display:flex;
+  flex-direction: row;
+    padding-bottom: 20px;
+    min-height: 100vh;
+ 
+  
+  }
+
+  .cont2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .cont1{
+    display: flex;
+    flex-direction: column;
+   
+    align-items: center;
+  }
+  .adtitle{
+    color: aliceblue;
+    text-decoration: none;
+    justify-content:flex-start;
+
+    
+  }
+ 
+  
+  .adnav{
+    width: 210px;
+    display: flex;
+    flex-direction: column;
+    gap: 120px;
+    background-color: rgb(16, 33, 57);
+    color: aliceblue;
+    align-items: center;
+    padding: 0 24px;
+    height: 100%;
+  }
+
+  .adlinks {
+    width: 210px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    background-color: rgb(16, 33, 57);
+    color: aliceblue;
+    align-items: center;
+    padding: 0 24px;
+    font-size: 20px;
+    
+  }
+ 
+  .adlinks a{
+    color:aliceblue;
+    text-decoration: none;
+    padding: 15px;
+  }
+
+  .adlinks a:hover{
+    border: 1px solid rgb(249, 249, 252); /* Change the border color on hover */
+  }
+
+  .candPage{
+    background-color: rgb(248, 251, 253);
+
+  width:1000px;
+  justify-content: center;
+align-items: center;
+border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin:50px auto;
+}
+
+.cNavbar h2{
+    color: aliceblue;
+    text-decoration: none;
+    justify-content:flex-start;
+
+  }
+  .cNavbar{
+
+    background: rgb(7, 120, 181);
+    /* background: linear-gradient(135deg, rgba(208, 157, 221, 1.0), rgba(163, 219, 234, 1.0));; */
+    border-radius: 15px;
+    color: aliceblue;
+    min-height: 70px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0 24px;
+
+
+  }
+#addCadBut{
+  background: #f8f6f7;
+  color: #020202;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  
+}
+ 
+  .cfun{
+    padding-right: 20px;
+    margin-right: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+    left: 0;
+  }
+  
+.cList{
+   
+    display: flex;
+    flex-direction: column;
+}
+
+.prevCan{
+    background-color: rgb(216, 232, 232);
+    display: flex;
+    flex-direction: row;
+    padding:10px;
+    margin: 20px 15px;
+    height:150px;
+    box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.1);
+    justify-content: space-between;
+      align-items: center;
+
+
+}
+
+  .prevCan:hover {
+    box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+  }
+
+  
+  .canImg {
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+  }
+  
+  .canImg img {
+    margin-right: 5px; /* Adjust the space between img and text */
+    border-radius: 50%;
+    width: 100px;
+    height:100px;
+    
+  }
+  
+  .canInfo {
+    flex: 1;
+    margin-left: 5px; /* Adjust the space between img and canInfo */
+  }
+  
+  .canEdit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-right: 50px;
+    text-align: right; /* Align text to the right within the container */
+  }
+
+  #canEditBut{
+    text-decoration: none;
+    padding:3px 7px;
+    margin-bottom: 35px;
+
+  }
+
+  #canDelBut{
+    text-decoration: none;
+    background-color: rgb(240, 52, 52);
+    border-color: aliceblue;
+    padding:4px 7px;
+    margin-bottom: 35px;
+
+  }
+  
+  
+
+
+
+

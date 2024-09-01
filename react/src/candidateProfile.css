@@ -1,0 +1,136 @@
+*{
+    margin:0;
+    padding:0;
+  }
+
+  .profilePage{
+    background-color: rgb(244, 246, 248);
+    background-image: url('./img/back5.jpg');
+    background-size: cover;
+    display:flex;
+  flex-direction: column;
+    padding-bottom: 20px;
+    min-height: 100vh;
+    flex-direction: column;
+    
+  
+  }
+
+  .cdptitle{
+    color: aliceblue;
+    margin-top: 20px;
+    font-size: 25px;
+    margin-bottom: 30px;
+  }
+
+  .profileList{
+    display: flex;
+    justify-content: center;
+  }
+
+  .profileCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+  }
+  .cardp{
+    
+    background-image:url('./img/Admin.png') ;
+    width:900px;
+    height:450px ;
+    background-size: cover;
+    position: relative;
+    justify-content: center;
+    margin-bottom: 50px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s, box-shadow 0.3s; /* Add transition for smoother hover effect */
+}
+    
+
+
+
+  .cardp:hover {
+    transform: scale(1.1); /* Increase scale on hover for the expand effect */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); /* Add shadow on hover */
+
+  }
+
+
+
+  .cardImg {
+    position: absolute; /* Position absolute within the relative positioned .cardp */
+    left: 0; /* Position it to the extreme left */
+    top: 50%; /* Adjust top value if needed to vertically center */
+    transform: translateY(-50%); /* Vertically center the image */
+}
+
+.cardImg img {
+    border-radius: 50%;
+    width: 250px; /* Adjust the width as needed */
+    height: 250px; /* Adjust the width as needed */
+    margin-left: 35%;
+    
+}
+
+.cardText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cardText h1{
+    margin-left: 30%;
+    margin-top: 3%;
+    font-size: 50px;
+    
+}
+
+.cardText h2{
+    margin-left: 30%;
+    margin-top: 2%;
+    font-size: 27px;
+    color:rgb(25, 158, 158);
+}
+
+
+.followLinks {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.followLinks a {
+  padding: 20px; /* Adjust padding as needed */
+}
+
+.followLinks img {
+  width: 27px;
+}
+/* .followLinks {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 20px; 
+} */
+
+.followLinks a {
+    padding: 20px; /* Add padding as needed */
+   /*  padding-bottom: 30px; */
+    /* align-content: flex-end;*/
+} 
+
+
+
+.textinfo{
+    margin-top: 3%;
+    margin-left: 47%;
+    font-size: 22px;
+    justify-content: center;
+    text-align: start;
+    padding: 4px;
+}
+
+.textinfo p{
+    padding: 4px;
+}

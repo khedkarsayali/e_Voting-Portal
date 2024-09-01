@@ -1,0 +1,220 @@
+
+.addVoterPage {
+    background-color: #F8FAFB;
+    display: flex;
+   
+}
+.abc{
+    display: flex;
+    flex-direction: column;
+   
+    align-items: center;
+  }
+.titlebar,
+.outerbox56,
+.displayvotersbox,
+.addVot,
+.voterstats{
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1), 0 4px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+}
+
+.outerbox56 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px; /* Add some space between input box and button */
+    width: 750px;
+    height: fit-content;
+    background-color: #ffffff;
+}
+
+/* Title bar */
+.titlebar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    width: 100%;
+    align-self: center;
+     
+    
+}
+
+.outerbox67 {
+    display: flex;
+    flex-direction: row; /* Change to column layout */
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px; /* Add some space between input box and button */
+    width: 750px;
+    height: 270px;
+    gap: 40px; /* Add gap between child elements */
+}
+
+/* Input section */
+.addVot,
+.voterstats{
+    background-color:#FFFFFF;
+    border-radius: 10px;
+    margin-top: 20px;
+    height:180px;
+    width:320px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.newbox{
+    height:50px;
+    background-color: #DCDCF8;
+    margin-bottom: 0px;
+    width:320px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.newbox2{
+    height:60px;
+    background-color:#CEE3FE;
+    margin-bottom: 0px;
+    width:320px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.addVot h3 {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height:200px;
+    padding-top:20px;
+}
+
+.voteCount{
+    height:180px;
+    padding-top:23px;
+
+}
+
+.form-group input {
+    margin-right: 0;
+    margin-bottom: 10px;
+    height: 30px;
+    width: 200px;
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+
+.btn-primary {
+    background-color: #007bff; /* Change to a formal color */
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+/* Vo
+
+/* Search bar */
+.searchbar {
+    margin-top: 20px;
+    
+}
+
+.tabletitle{
+    background-color: #F5F5F5;
+    height:80px;
+    width:750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+
+}
+
+
+.table {
+    width: 700px;
+    height: fit-content;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.table td,
+th {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    gap:150px;
+}
+.table {
+    border-collapse: collapse;
+    margin: 0 auto; /* Center horizontally */
+  }
+  
+  .table th,
+  .table td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  .table th {
+    background-color: #f2f2f2;
+  }
+  
+  .table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .table tr:hover {
+    background-color: #dddddd;
+  }
+  
+  .table td button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: red;
+  }
+  
+  .table td button:hover {
+    color: darkred;
+  }
+  
+.table th{
+    background-color: #7db9f4;
+}
+
+/* Additional adjustments for better layout (optional) */
+.outerbox67 {
+    justify-content: space-between; /* Maintain spacing between elements */
+}
+
+.form-group input {
+    width: 200px; /* Maintain original width if previously adjusted */
+    
+}
+
+
+.addVot ,.newbox2{
+    border-bottom: 5px solid rgb(107, 109, 109);
+
+}
+
+.voteCount h1{
+    font-size: 40px;
+}

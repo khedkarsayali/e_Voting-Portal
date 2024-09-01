@@ -1,0 +1,97 @@
+/* Global styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Common styles for both pages */
+
+.login_page {
+  background-image: url("./img/Login3.jpeg");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Common styles for both pages */
+
+.outer_signup2 {
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  max-width: 90%;
+  /* Responsive maximum width */
+  height: 450px;
+  padding: 20px;
+  /* Add padding */
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: auto;
+  position: relative;
+  box-shadow: 0 0 10px rgb(255, 255, 255);
+  /* Add relative positioning */
+  right: 50px;
+  transition: transform 0.3s ease;
+  /* Center horizontally */
+}
+
+.outer_signup2:hover {
+  transform: scale(1.05);
+  /* Scale up the size when hovered */
+}
+
+.login2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* Center-align form elements */
+  width: 100%;
+  /* Full-width form */
+  max-width: 300px;
+  /* Limit maximum width */
+  margin-top: 20px;
+}
+
+.login_btn2 {
+  width: 60%;
+  height: 35px;
+  border-radius: 10px;
+  margin-top: 20px;
+  background-color: rgb(21, 46, 74);
+  color: aliceblue;
+}
+
+.login_ip2 {
+  width: 100%;
+  margin-bottom: 20px;
+  height: 28px;
+  border: 1px solid #ccc;
+  padding: 0 10px;
+  border-radius: 10px;
+}
+
+.already2 {
+  font-size: small;
+  align-self: flex-end;
+  padding-top: 22px;
+  padding-right: 12px;
+  color: black;
+}
+
+.head2 {
+  font-size: 220%;
+  color: rgb(0, 0, 0);
+}

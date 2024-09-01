@@ -1,0 +1,203 @@
+
+
+
+
+*{
+  margin:0;
+  padding:0;
+}
+
+.userrepage{   
+  min-height: 100vh;
+  background-color: #F8F9FC;
+  
+    
+}
+
+.outerouter{
+  min-height: 100vh;
+  background-color: #F8F9FC;
+
+}
+
+.outerflex1{
+  display: flex;
+  gap:40px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.flexbox1234{
+  height:120px;
+  background-color: #FFFFFF;
+  width:20%;
+  border-radius: 8px;
+  box-shadow: 10px,#0000;
+  
+}
+
+.lowerBox1{
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+  align-items: center;
+  gap:20px;
+
+}
+
+.showCountdata1{
+  width:62%;
+  min-height:400px;
+  max-height: fit-content;
+  
+  background-color:#FFFFFF;
+}
+
+.winChart1{
+  width:25%;
+  height:400px;
+ 
+  background-color: #FFFFFF;
+
+}
+
+.innerT12{
+  height:55px;
+  background-color: #dcddde;
+  display: flex;
+  align-items: center;
+  padding-left:  30px;
+}
+
+.innerT12 h4{
+  color:rgb(42, 151, 247);
+  align-self: center;
+  size: 15px;
+}
+
+
+.box112{
+  height: 120px;
+    margin-top: 40px;
+}
+
+#box111,
+#box222,
+#box333,
+#box444,
+.showCountdata1,
+.winChart {
+  box-shadow: 0px 2px 14px rgba(0, 0, 0, 0.1); /* Adjust shadow color and intensity as needed */
+}
+
+#box111 {
+  border-left: 5px solid rgb(246, 77, 77); /* Adjust border color and width as needed */
+}
+
+#box222 {
+  border-left: 5px solid rgb(0, 174, 255); /* Adjust border color and width as needed */
+}
+
+#box333 {
+  border-left: 5px solid yellow; /* Adjust border color and width as needed */
+}
+
+#box444 {
+  border-left: 5px solid rgb(39, 124, 36); /* Adjust border color and width as needed */
+}
+
+.box12 ,
+.flexbox1234,
+#box333,#box444 {
+  justify-content: center;
+  align-content: center;
+}
+
+
+.box12{
+  display: flex;
+  flex-direction: column;
+
+}
+
+
+
+.showCountdata1 table{
+  width:90%;
+  height: fit-content;
+  margin-top: 40px;
+  margin-inline: auto;
+
+}
+
+.winChart{
+  width:25%;
+  height:400px;
+ 
+  background-color: #FFFFFF;
+
+}
+
+.innerT12 table{
+  width:80%;
+  height: fit-content;
+  min-height: 600px;
+}
+
+#box444{
+  width:65%;
+}
+
+.infoWinner{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:50px;
+}
+
+.winTitle{
+  width:30%;
+}
+
+.winnerInfo{
+  width:45%;
+}
+
+.winnerimg{
+  width:25%;
+}
+
+.resultNotPublished{
+  font-size: 60px;
+  align-self: center;
+}
+
+.outerflex12{
+  display: flex;
+  gap:40px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+
+}
+
+.winnerimg{
+  height:40px;
+
+}
+
+.winnerimg img{
+  height: 90px;
+    margin-top: 0px;
+}
+
+.imgpie{
+  height: 400px;
+}
+
+.imgpie img{
+  height: inherit;
+    width: -webkit-fill-available;
+}
+

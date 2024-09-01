@@ -1,0 +1,76 @@
+.login-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 200px;
+    /* margin: 20px auto; */
+}
+
+.login-option {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.user {
+    color: #030303;
+}
+
+.admin {
+    color: #060606;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 40px; /* Decreased width to 40px */
+    height: 20px; /* Decreased height to 20px */
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #0876a4;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    border-radius: 10px; /* Decreased border-radius to 10px */
+}
+
+.slider:before {
+    position: absolute;
+    content: '';
+    height: 16px; /* Decreased height to 16px */
+    width: 16px; /* Decreased width to 16px */
+    left: 2px; /* Adjusted left spacing */
+    bottom: 2px; /* Adjusted bottom spacing */
+    background-color: white;
+    -webkit-transition: 0.4s;
+    transition: transform 0.4s;
+    border-radius: 50%;
+}
+
+input:checked + .slider {
+    background-color: #ffa600;
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 1px #ffa600;
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(16px);
+    -ms-transform: translateX(16px);
+    transform: translateX(16px);
+}

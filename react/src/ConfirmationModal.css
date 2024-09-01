@@ -1,0 +1,41 @@
+/* Add this to your existing CSS */
+
+.confirmationModal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background to overlay the content */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Adjust the z-index value based on your needs */
+}
+
+
+.confirmationBox{
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    width:400px;
+    height:150px;
+
+}
+.buttonConfirm {
+    padding:20px;
+    margin-bottom: 50px;
+}
+
+.confirmationBox p {
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+
+.buttonConfirm button{
+    padding:10px;
+    width:60px;
+    margin-left: 30px;
+    border-radius: 6px;
+}

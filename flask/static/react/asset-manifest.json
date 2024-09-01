@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/react/css/main.4c58e819.css",
+    "main.js": "/static/react/js/main.14f3c74b.js",
+    "js/453.d4f59595.chunk.js": "/static/react/js/453.d4f59595.chunk.js",
+    "media/userHomeback.png": "/static/react/media/userHomeback.54b5ed748389e752f9ab.png",
+    "media/back7.jpg": "/static/react/media/back7.f5e91a0d734a51af3639.jpg",
+    "media/back5.jpg": "/static/react/media/back5.35cffa6e468ff120d2da.jpg",
+    "media/Login3.jpeg": "/static/react/media/Login3.3bf0aa7487b3e6aed9bd.jpeg",
+    "media/profile1.jpeg": "/static/react/media/profile1.fe0e168048920742f0d3.jpeg",
+    "media/Admin.png": "/static/react/media/Admin.d3af6949e62b61135e9f.png",
+    "media/twitter.png": "/static/react/media/twitter.112d93100806a70e5d28.png",
+    "media/linkedin.png": "/static/react/media/linkedin.f249b38224ca41a0b909.png",
+    "../../templates/index.html": "/static/react/../../templates/index.html",
+    "main.4c58e819.css.map": "/static/react/css/main.4c58e819.css.map",
+    "main.14f3c74b.js.map": "/static/react/js/main.14f3c74b.js.map",
+    "453.d4f59595.chunk.js.map": "/static/react/js/453.d4f59595.chunk.js.map"
+  },
+  "entrypoints": [
+    "css/main.4c58e819.css",
+    "js/main.14f3c74b.js"
+  ]
+}
