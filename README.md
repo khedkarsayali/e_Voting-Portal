@@ -1,3 +1,5 @@
+**check the master branch for full code
+
 # e_Voting-Portal
 The E-Voting Portal is a secure and user-friendly online platform designed for conducting elections. It allows voters to view candidates, voters to cast their votes, and administrators to manage elections and view results. The system ensures a transparent and efficient election process with real-time updates and reporting.
 
